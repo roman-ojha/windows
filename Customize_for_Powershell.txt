@@ -1,0 +1,18 @@
+=> run terminal as admin
+    => https://github.com/JanDeDobbeleer/oh-my-posh2
+    => install-Module oh-my-posh (this will help us to decorate the powershell)
+
+    => Install-Module posh-git (this will auto complete for git)
+
+    => Import-Module oh-my-posh
+    => Import-Module posh-git
+
+    => Set-PoshPrompt Paradox (to set the theme)
+
+    -> to make a parmanent change we have to write a script:
+        -> code $PROFILE
+            Import-Module oh-my-posh
+            Import-Module posh-git
+            Set-PoshPrompt Paradox
+
+    -> we have to set a font that have those icons which is nedded

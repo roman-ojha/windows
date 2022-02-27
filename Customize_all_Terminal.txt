@@ -1,0 +1,14 @@
+=> install Nerd Font 
+    -> we can chose between which font that we want for right now we are downloading 
+        -> JetBrainsMono
+            -> and install all the fonts
+
+=> here we are using 'starship' prompt
+    -> https://starship.rs/
+
+    -> choco install starship (to install it you first need to install Chocolety)
+    => For PowerShell
+        -> code $PROFILE (to open the profile settings)
+            -> now we have to add into the powershell file:
+                -> Invoke-Expression (&starship init powershell)
+                    -> it means that it will run the starship automatically when we will open the windows powershell
