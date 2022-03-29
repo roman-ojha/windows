@@ -1,7 +1,9 @@
-dir -> to check the directory
-d: -> to go to the drive
-cd "name of the folder" -> to travel to the folder
-cd.. -> to come back in next directory
-mkdir <name of folder> -> to create folder in the directory
-cls -> to clear the terminal
-type nul > index.js -> to create empty file 
+-> dir (to check the directory)
+-> d: (to go to the drive)
+-> cd "name of the folder" (to travel to the folder)
+-> cd.. (to come back in next directory)
+-> mkdir <name of folder> (to create folder in the directory)
+-> cls (to clear the terminal)
+-> type nul > index.js (to create empty file)
+-> nodepad <file_name> (to open file on notepad)
+-> code <file_name> (to open file on code editor)
