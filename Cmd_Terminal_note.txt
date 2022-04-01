@@ -1,9 +1,30 @@
--> dir (to check the directory)
--> d: (to go to the drive)
--> cd "name of the folder" (to travel to the folder)
--> cd.. (to come back in next directory)
--> mkdir <name of folder> (to create folder in the directory)
--> cls (to clear the terminal)
--> type nul > index.js (to create empty file)
--> nodepad <file_name> (to open file on notepad)
--> code <file_name> (to open file on code editor)
+*) Folders/Files/Directory/Path command
+    -> dir (to check the directory)
+    -> ls (to see the file and folder on cwd)
+    -> d: (to go to the drive)
+    -> cd "name of the folder" (to travel to the folder)
+    -> cd.. (to come back in next directory)
+    -> mkdir <name of folder> (to create folder in the directory)
+    -> rmdir <name_of_folder> (to remove given folder)
+    -> cls (to clear the terminal)
+    -> type nul > <file_name> (to create empty file)
+    -> del <file_name> (to delete given file)
+    -> nodepad <file_name> (to open file on notepad)
+    -> code <file_name> (to open file on code editor)
+    -> Attrib +h +s +r <file_name/folder_name> (to hide file and folder)
+    -> Attrib -h -s -r <file_name/folder_name> (to show hidden file and folder)
+    -> ls | clip (to copy output of the command on clipboard)
+
+*) CMD command:
+    -> title <title_name> (to change the name of cmd title)
+
+*) Customize Powershell:
+    -> [System.Enum]::getvalues([System.ConsoleColor]) (list all possible color)
+    -> Set-PSReadLineOption -colors @{ Command = "Green"} (to change the command color to given color)
+
+*) Customize CMD:
+    -> help color (to list all the possible color)
+    -> color <corrosponding_value_for_that_color> (to change the text color)
+
+*) Network Command:
+    -> ipconfig (show windows ip configuration)
