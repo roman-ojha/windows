@@ -27,6 +27,18 @@
 *) Customize Powershell:
     -> [System.Enum]::getvalues([System.ConsoleColor]) (list all possible color)
     -> Set-PSReadLineOption -colors @{ Command = "Green"} (to change the command color to given color)
+    -> Set-PSReadLineOption -colors @{ parameter = "Green"} (to change paratmer color)
+        -> all possible parameter:
+            1) Command
+            2) paratmer
+            3) string
+            4) variable
+            5) operator
+            6) member
+            7) number
+            8) type
+            9) comment
+            10) default
 
 *) Customize CMD:
     -> help color (to list all the possible color)
