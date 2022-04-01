@@ -14,9 +14,13 @@
     -> Attrib +h +s +r <file_name/folder_name> (to hide file and folder)
     -> Attrib -h -s -r <file_name/folder_name> (to show hidden file and folder)
     -> ls | clip (to copy output of the command on clipboard)
+    -> home (press home key to put cursor on starting position)
+    -> end (press end key to put cursor on ending position)
+    -> md con\ (to create folder name reserved by windows like: con, aux)
 
 *) CMD command:
     -> title <title_name> (to change the name of cmd title)
+    -> f7 (to see the 10th history)
 
 *) Customize Powershell:
     -> [System.Enum]::getvalues([System.ConsoleColor]) (list all possible color)
@@ -28,3 +32,10 @@
 
 *) Network Command:
     -> ipconfig (show windows ip configuration)
+    -> ping <another_device_ip> (for detecting devices on a network)
+    -> ipconfig /all (displays more information about the network setup on you system)
+    -> ipconfig /release (release the current IP address)
+    -> ipconfig /? (show help)
+    -> hostname (to see the name of host/machine)
+    -> getmac (to se Mac address of your network interfaces)
+    -> arp -a (show the address resolution cache)
