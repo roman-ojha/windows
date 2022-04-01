@@ -17,6 +17,8 @@
     -> home (press home key to put cursor on starting position)
     -> end (press end key to put cursor on ending position)
     -> md con\ (to create folder name reserved by windows like: con, aux)
+    -> type <file_name> (to see content inside the file)
+    -> more <file_name> (to see content inside the file)
 
 *) CMD command:
     -> title <title_name> (to change the name of cmd title)
