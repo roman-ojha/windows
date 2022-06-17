@@ -1,18 +1,25 @@
+-> https://ohmyposh.dev/docs/
+-> https://youtu.be/FvHNfpH8fxM
 => run terminal as admin
+    => install Meslo Nerd Font:
+        -> https://www.nerdfonts.com/font-downloads
+        -> and set this font as default
     => https://github.com/JanDeDobbeleer/oh-my-posh2
-    => install-Module oh-my-posh (this will help us to decorate the powershell)
-
+    -> https://ohmyposh.dev
+    => winget install JanDeDobbeleer.OhMyPosh (this will help us to decorate the powershell)
     => Install-Module posh-git (this will auto complete for git)
 
-    => Import-Module oh-my-posh
+    => oh-my-posh init pwsh --config ~\AppData\Local\Programs\oh-my-posh\themes\<theme>.omp.json | Invoke-Expression
     => Import-Module posh-git
 
-    => Set-PoshPrompt Paradox (to set the theme)
-
     -> to make a parmanent change we have to write a script:
+        -> echo $profile
+            -> open file of given path
+            -> if file doesn't exist then we have to create like bellow
         -> code $PROFILE
-            Import-Module oh-my-posh
+            oh-my-posh init pwsh --config ~\AppData\Local\Programs\oh-my-posh\themes\<theme>.omp.json | Invoke-Expression
             Import-Module posh-git
-            Set-PoshPrompt Paradox
 
+    *) Theme:
+        -> marcduiker
     -> we have to set a font that have those icons which is nedded

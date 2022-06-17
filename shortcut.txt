@@ -15,3 +15,4 @@
 -> 'Win + e' (open file Explorer)
 -> 'Win + PrtScn' (to take screenshot)
 -> 'ctrl + w' (to close window)
+-> 'Win + g' (to open xbox game bar tool)
