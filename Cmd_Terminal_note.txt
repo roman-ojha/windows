@@ -1,6 +1,7 @@
 *) Folders/Files/Directory/Path command
     -> dir (to check the directory)
     -> ls (to see the file and folder on cwd)
+	-> dir (to see the file and folder on cwd)
     -> d: (to go to the drive)
     -> cd "name of the folder" (to travel to the folder)
     -> cd.. (to come back in next directory)
@@ -19,6 +20,13 @@
     -> md con\ (to create folder name reserved by windows like: con, aux)
     -> type <file_name> (to see content inside the file)
     -> more <file_name> (to see content inside the file)
+	-> tree (to see the tree structure of all the subfolder from current directory)
+	-> tree /f (this will show folder as well as file)
+	-> tree /a
+	-> tree /a /f
+	-> tree \ (from the current drive ex: D:\)
+	-> tree |clip (copy output on clipboard)
+	-> tree /? (tree docs)
 
 *) CMD command:
     -> title <title_name> (to change the name of cmd title)
