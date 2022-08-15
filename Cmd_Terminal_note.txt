@@ -19,6 +19,8 @@
     -> end (press end key to put cursor on ending position)
     -> md con\ (to create folder name reserved by windows like: con, aux)
     -> type <file_name> (to see content inside the file)
+    -> explorer (open windows explorer)
+    -> explorer . (open explorer in current directory)
     -> more <file_name> (to see content inside the file)
 	-> tree (to see the tree structure of all the subfolder from current directory)
 	-> tree /f (this will show folder as well as file)
@@ -27,6 +29,9 @@
 	-> tree \ (from the current drive ex: D:\)
 	-> tree |clip (copy output on clipboard)
 	-> tree /? (tree docs)
+    -> echo $pwd (display project working directory)
+    -> echo <string/parameter> (to display output of the given string and parameter)
+    -> echo <string/parameter> |clip (copy output of echoed into clipboard)
 
 *) CMD command:
     -> title <title_name> (to change the name of cmd title)
