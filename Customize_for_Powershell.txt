@@ -23,3 +23,11 @@
     *) Theme:
         -> marcduiker
     -> we have to set a font that have those icons which is nedded
+    
+=> Customize for Bash:
+    -> Inside User folder: C:\Users\<name> you will found '.bash_profile' file which you can use to load the initial command
+    -> Add Bellow code inside it:
+        -> eval "$(oh-my-posh init bash --config ~/AppData/Local/Programs/oh-my-posh/themes/marcduiker.omp.json)"
+
+*) Customization for Different Terminals
+    -> https://ohmyposh.dev/docs/installation/customize
