@@ -26,6 +26,7 @@
     
 => Customize for Bash:
     -> Inside User folder: C:\Users\<name> you will found '.bash_profile' file which you can use to load the initial command
+    -> Or if '.bash_profile' didn't work create '.bashrc' file
     -> Add Bellow code inside it:
         -> eval "$(oh-my-posh init bash --config ~/AppData/Local/Programs/oh-my-posh/themes/marcduiker.omp.json)"
 
