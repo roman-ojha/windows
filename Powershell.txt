@@ -1,0 +1,2 @@
+=> Powershell version 7^ store the history of command inside:
+    -> "C:\Users\razzr\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt" path
