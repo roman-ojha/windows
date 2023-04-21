@@ -29,6 +29,11 @@
     -> Or if '.bash_profile' didn't work create '.bashrc' file
     -> Add Bellow code inside it:
         -> eval "$(oh-my-posh init bash --config ~/AppData/Local/Programs/oh-my-posh/themes/marcduiker.omp.json)"
+    
+    -> Or for linux Bash use this command and add bellow code:
+        -> sudo nano ~/.bashrc
+        -> OR: sudo nano ~/.bash_profile 
+            => eval "$(oh-my-posh init bash --config ~/.poshthemes/emodipt-extend.omp.json)"
 
 *) Customization for Different Terminals
     -> https://ohmyposh.dev/docs/installation/customize

@@ -1,0 +1,5 @@
+*) Setup:
+    -> wsl
+    -> wsl --update
+    -> wsl --list --online (to see all the available distro)
+    -> wsl --install -d ubuntu-20.04 (to install ubuntu-20.04)
