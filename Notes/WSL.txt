@@ -3,3 +3,19 @@
     -> wsl --update
     -> wsl --list --online (to see all the available distro)
     -> wsl --install -d ubuntu-20.04 (to install ubuntu-20.04)
+    -> wsl -l -v (to see all the installed distro)
+    
+    *) Update packages for linux:
+        -> sudo apt update
+        -> sudo apt upgrade
+        
+    *) To shutdown the instance of ubuntu
+        -> wsl.exe --shutdown
+        
+*) we can now install the GUI application as well
+    -> EX:
+        -> sudo apt install gimp -y
+        -> gimp (to run GUI gimp application)
+        
+*) Remote Extension for VScode to interact with WSL2
+    -> https://youtu.be/7KVdJ43dQmE?t=4m38
