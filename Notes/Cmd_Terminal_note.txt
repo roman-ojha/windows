@@ -9,6 +9,8 @@
     -> rmdir <name_of_folder> (to remove given folder)
     -> cls (to clear the terminal)
     -> type nul > <file_name> (to create empty file)
+    -> New-Item <file_name> (to create file)
+    -> New-Item <directory + file_name> (to create file)
     -> del <file_name> (to delete given file)
     -> nodepad <file_name> (to open file on notepad)
     -> code <file_name> (to open file on code editor)
