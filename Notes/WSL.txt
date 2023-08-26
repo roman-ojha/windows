@@ -19,3 +19,6 @@
         
 *) Remote Extension for VScode to interact with WSL2
     -> https://youtu.be/7KVdJ43dQmE?t=4m38
+    
+*) Path for widows available directory:
+    -> cd /mnt/
