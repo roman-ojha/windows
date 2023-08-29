@@ -1,0 +1,51 @@
+*) Programming:
+	-> Github cli
+	-> VScode
+	-> Visual Studio
+	-> Flutter, dart:
+		-> Android Studio
+		-> Java JDK
+	-> Docker, Docker Desktop
+	-> Windows Terminal
+	-> Ganache
+	-> IPFS desktop
+	-> MongoDB, MongoDB compose
+	-> PGAdmin, PostgreSQL
+	-> DB Browser (Sqlite)
+	-> XAMPP
+	-> Barrier
+	-> Msys2 for mingw
+	-> Oracle Virtual Box
+	-> Ubuntu WSL
+	-> Nvim
+	-> Draw.io
+	-> Figma
+	-> Kubernetes:
+		-> Minikube
+		-> Kubectl
+	-> npm, Node, Yarn
+	-> Python
+	-> Redis
+	-> php, composer
+	-> .NET Core, C#
+	-> nginx
+	-> Rust
+	-> Git
+	-> CMake
+
+
+*) Music:
+	-> Fl Studio
+	-> Ableton
+	-> Audacity
+
+*) Productivity:
+	-> Notion
+	-> Photoshop
+	-> Premiere pro
+	-> KDE connect
+	-> Iriun  Webcam
+	-> VLC
+	-> Barrier
+	-> Flow Launcher
+	-> FileZilla

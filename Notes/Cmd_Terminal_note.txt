@@ -34,6 +34,8 @@
     -> echo $pwd (display project working directory)
     -> echo <string/parameter> (to display output of the given string and parameter)
     -> echo <string/parameter> |clip (copy output of echoed into clipboard)
+    
+    -> <command> | tail (to get last part of the output)
 
 *) CMD command:
     -> title <title_name> (to change the name of cmd title)
