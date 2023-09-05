@@ -68,6 +68,16 @@
 		-> Use Case: The '||' operator is used to execute command2 only if command1 fails (returns a non-zero exit status). If command1 succeeds, command2 will not be executed.
 		-> EX: $ mkdir my_directory || echo "Failed to create directory"
 
+
+*) SSH:
+	*) Generate SSH Key:
+		-> ssh-keygen -t rsa -b 2048 (Generate Simple SSH key with current user)
+		-> ssh-keygen -t rsa -b 2048 -C <username> -f <key_file_name> (generate ssh key with given username & key file name on current directory)
+	*) Connect to VM using ssh:
+		-> ssh <username>@<ip_address>
+		-> ssh i ~\.ssh\<public_ssh>.pub <username>@<ip_address> (connect using specific public key)
+	
+
 *) Customize CMD:
     -> help color (to list all the possible color)
     -> color <corrosponding_value_for_that_color> (to change the text color)
