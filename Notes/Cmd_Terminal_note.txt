@@ -57,6 +57,17 @@
             9) comment
             10) default
 
+*) && and || Operator:
+	-> use to control the flow of commands and their execution based on the success or failure of preceding commands.
+	*> && Operator (Logical AND):
+		-> Syntax: command1 && command2
+		-> Use Case: The '&&' operator is used to execute command2 only if command1 succeeds (returns a zero exit status). If command1 fails (returns a non-zero exit status), command2 will not be executed.
+		-> EX: ls non-existent-directory && echo "Directory exists" || echo "Directory does not exist"
+	*> || Operator (Logical OR):
+		-> Syntax: command1 || command2
+		-> Use Case: The '||' operator is used to execute command2 only if command1 fails (returns a non-zero exit status). If command1 succeeds, command2 will not be executed.
+		-> EX: $ mkdir my_directory || echo "Failed to create directory"
+
 *) Customize CMD:
     -> help color (to list all the possible color)
     -> color <corrosponding_value_for_that_color> (to change the text color)
