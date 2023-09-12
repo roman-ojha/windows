@@ -1,7 +1,7 @@
 *) Folders/Files/Directory/Path command
     -> dir (to check the directory)
     -> ls (to see the file and folder on cwd)
-	-> dir (to see the file and folder on cwd)
+    -> dir (to see the file and folder on cwd)
     -> d: (to go to the drive)
     -> cd "name of the folder" (to travel to the folder)
     -> cd.. (to come back in next directory)
@@ -34,8 +34,9 @@
     -> echo $pwd (display project working directory)
     -> echo <string/parameter> (to display output of the given string and parameter)
     -> echo <string/parameter> |clip (copy output of echoed into clipboard)
-    
     -> <command> | tail (to get last part of the output)
+    -> alias (to see all the alias available)
+    -> (pwd).Path | CLIP
 
 *) CMD command:
     -> title <title_name> (to change the name of cmd title)
