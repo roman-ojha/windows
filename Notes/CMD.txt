@@ -37,6 +37,7 @@
     -> <command> | tail (to get last part of the output)
     -> alias (to see all the alias available)
     -> (pwd).Path | CLIP
+    -> cat <file_name> (to read file)
 
 *) CMD command:
     -> title <title_name> (to change the name of cmd title)
