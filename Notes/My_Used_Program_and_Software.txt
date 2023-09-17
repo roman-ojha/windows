@@ -32,6 +32,8 @@
 	-> Rust
 	-> Git
 	-> CMake
+	-> Lazygit
+	-> Cocolety for windows package manager
 
 
 *) Music:

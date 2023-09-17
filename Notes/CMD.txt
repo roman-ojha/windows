@@ -93,3 +93,12 @@
     -> hostname (to see the name of host/machine)
     -> getmac (to se Mac address of your network interfaces)
     -> arp -a (show the address resolution cache)
+
+*) Upload files and folder to VPS server
+    -> scp <path_where_file_exist> <user_name_of_server>@<ip_address_of_server>:<path_where_you_want_to_upload_given_folder_and_files>
+      -> (Upload file)
+      -> (NOTE try to upload on user directory folder '~' because in other you might will get permission deined)
+    -> scp -r <path_where_folder_exist> <user_name_of_server>@<ip_address_of_server>:<path_where_you_want_to_upload_given_folder_and_files>
+      -> (Upload Folder)
+    -> scp -r -i <path_to_ssh_key> <path_where_folder_exist> <user_name_of_server>@<ip_address_of_server>:<path_where_you_want_to_upload_given_folder_and_files>
+      -> (Upload with SSH)
