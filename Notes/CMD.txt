@@ -37,8 +37,10 @@
     -> <command> | tail (to get last part of the output)
     -> alias (to see all the alias available)
     -> (pwd).Path | CLIP
-    -> cat <file_name> (to read file)
+    -> cat <file_name> (to read content of file)
+    -> type <file_name> (to read content of file)
     -> <command> | grep <string> (to search string in the output of the command)
+    -> env (to see all the environment variable available for the current shell)
 
 *) CMD command:
     -> title <title_name> (to change the name of cmd title)

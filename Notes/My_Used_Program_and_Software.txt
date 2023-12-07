@@ -23,8 +23,9 @@
 	-> Kubernetes:
 		-> Minikube
 		-> Kubectl
-		-> k9s (https://github.com/derailed/k9s)
-	-> npm, Node, Yarn
+		-> k9s (https://github.com/
+		-> eksctl (https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html)
+	-> npm, Node, Yarn, nvm-windows
 	-> Python
 	-> Redis
 	-> php, composer
@@ -35,6 +36,7 @@
 	-> CMake
 	-> Lazygit
 	-> Cocolety for windows package manager
+	-> rabbitMQ
 
 
 *) Music:
