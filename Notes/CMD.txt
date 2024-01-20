@@ -41,6 +41,13 @@
     -> type <file_name> (to read content of file)
     -> <command> | grep <string> (to search string in the output of the command)
     -> env (to see all the environment variable available for the current shell)
+    
+*) Get current working directory:
+    -> pwd (print working directory)
+    -> echo $pwd (display project working directory)
+    -> echo $pwd |clip (copy output of echoed into clipboard)
+    -> (pwd).Path | CLIP
+    -> ${pwd} (display project working directory)
 
 *) CMD command:
     -> title <title_name> (to change the name of cmd title)
@@ -105,3 +112,5 @@
       -> (Upload Folder)
     -> scp -r -i <path_to_ssh_key> <path_where_folder_exist> <user_name_of_server>@<ip_address_of_server>:<path_where_you_want_to_upload_given_folder_and_files>
       -> (Upload with SSH)
+*) Download file from VPS server
+    -> scp -i ~/.ssh/google_compute_engine [USERNAME]@[EXTERNAL_IP]:/path/to/example_folder.zip [LOCAL_PATH]
