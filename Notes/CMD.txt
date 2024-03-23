@@ -41,6 +41,7 @@
     -> type <file_name> (to read content of file)
     -> <command> | grep <string> (to search string in the output of the command)
     -> env (to see all the environment variable available for the current shell)
+    -> New-Item -ItemType SymbolicLink -Target <target_path> -Path <link_path> (to create a symbolic link)
     
 *) Get current working directory:
     -> pwd (print working directory)

@@ -12,6 +12,17 @@ Import-Module posh-git
 # Now we can use 'vim' command as well to run neovim
 Set-Alias -Name vim -Value nvim
 Set-Alias g git
+Set-Alias lg lazygit
+
+# Terminal Icon plugin
+Import-Module -Name Terminal-Icons
+
+# Fuzzy finder plugin: https://github.com/junegunn/fzf
+# Export 'FZF_DEFAULT_OPTS' to set the default options
+$env:FZF_DEFAULT_OPTS = '--height 60% --layout=reverse --border --preview "bat --color=always --style=header,grid --line-range :500 {}"'
+
+# Bat Plugin: https://github.com/sharkdp/bat
+
 
 if ($host.Name -eq 'ConsoleHost' -or $host.Name -eq 'Visual Studio Code Host' ) {
 
@@ -45,4 +56,3 @@ if ($host.Name -eq 'ConsoleHost' -or $host.Name -eq 'Visual Studio Code Host' ) 
   }
 }
 
-Import-Module -Name Terminal-Icons

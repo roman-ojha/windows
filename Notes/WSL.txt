@@ -11,6 +11,10 @@
         
     *) To shutdown the instance of ubuntu
         -> wsl.exe --shutdown
+
+
+*) Customize terminal:
+    -> https://youtu.be/235G6X5EAvM
         
 *) we can now install the GUI application as well
     -> EX:
