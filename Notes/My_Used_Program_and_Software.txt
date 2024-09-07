@@ -54,3 +54,6 @@
 	-> Barrier
 	-> Flow Launcher
 	-> FileZilla
+	-> OBS Studio
+	-> Spacedesk
+	-> Weylus (https://github.com/H-M-H/Weylus)
